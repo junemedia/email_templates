@@ -1,0 +1,34 @@
+{% assign nwstFtrd = content.newest.featured %}
+{% assign plstFtrd = content.playlists.featured %}
+
+ HYPSTER                                              News
+-----------------------------------------------------------
+http://hypster.com
+
+
+Latest News
+----------------------------------------
+ * {{nwstFtrd.title}}: {{nwstFtrd.href}}
+{% for item in content.newest.items limit:4 %}
+ * {{item.title}}: {{item.href}}
+{% endfor %}
+
+
+Featured Playlist
+----------------------------------------
+ * {{plstFtrd.title}}: {{plstFtrd.href}}
+
+
+Keep Reading
+----------------------------------------
+ * {{content.more[0].title}}: {{content.more[0].href}}
+
+
+Follow Us!
+----------------------------------------
+ * Facebook - https://www.facebook.com/Hypster/
+ * Twitter - https://twitter.com/Hypsterdotcom
+ * Tumblr - http://hypsterblog.tumblr.com/
+
+
+©2017 June Media 276 Fifth Avenue, New York, NY 10001 All rights reserved.

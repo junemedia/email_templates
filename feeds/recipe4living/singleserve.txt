@@ -1,0 +1,15 @@
+{% assign feature = items[0] %}
+ Single Serving by Recipe4Living
+-----------------------------------------------------------
+http://www.recipe4living.com
+
+
+
+ {{feature.title}}
+-----------------------------------------------------------
+ {{feature.teaser}}
+ {{feature.targetUrl}}
+
+
+
+Copyright © {{ 'now' | date: '%Y'}} June Media, All rights reserved. June Media, 200 E. Ohio Street, Suite 300, Chicago, IL 60611</em>

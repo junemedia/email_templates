@@ -1,0 +1,24 @@
+{% assign feature = items[0] %}
+ CopyCat Classics by Recipe4Living
+-----------------------------------------------------------
+ http://www.recipe4living.com
+
+
+
+ {{feature.title}}
+-----------------------------------------------------------
+ {{feature.teaser}}
+ {{feature.targetUrl}}
+
+
+
+ More We Love
+-----------------------------------------------------------
+{% for item in items offset:1 limit:4 %} * {{item.title}}
+   {{item.targetUrl}}
+
+{% endfor %}
+
+
+
+Copyright © {{ 'now' | date: '%Y'}} June Media, All rights reserved. June Media, 200 E. Ohio Street, Suite 300, Chicago, IL 60611
