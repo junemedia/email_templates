@@ -1,21 +1,28 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
-<html><body>
-<p>{{other.time_stamp}}</p>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Winner Notification</title>
+  </head>
+  <body>
+    <p>#L_MONTH# #S_DAY#, #L_YEAR#</p>
 
-<p>Congratulations! We are pleased to announce that your email {{tag.winner_email}} was selected from all the entries submitted on {{tag.prize_date}} for the {{tag.site_name}} Daily Sweepstakes.</p>
+    <p>Congratulations! We are pleased to announce that your email {{event.winner_email}} was selected from all the entries submitted on {{event.prize_date}} for the {{event.site_name}} Daily Sweepstakes.</p>
 
-<p>Please respond within 10 days of this email received date to verify your submission and confirm the mailing address to which your prize should be sent. This will be awarded in the form of a ${{tag.prize_value}} gift card. If you would prefer the featured product, {{tag.prize_title}}, please notify us in your response.</p>
+    <p>Please respond within 10 days of this email received date to verify your submission and confirm the mailing address to which your prize should be sent. This will be awarded in the form of a ${{event.prize_value}} gift card. If you would prefer the featured product, {{event.prize_title}}, please notify us in your response.</p>
 
-<p>If we do not hear from you within 10 days, an alternative winner will be selected.</p>
+    <p>If we do not hear from you within 10 days, an alternative winner will be selected.</p>
 
-<p>Please be sure to send your response or any questions to ContestAdmin@JuneMedia.com.</p>
+    <p>Please be sure to send your response or any questions to ContestAdmin@JuneMedia.com.</p>
 
-<p>Thanks for entering our Sweepstakes on {{tag.site_domain}}. Make sure to come back every day for other great items!</p>
+    <p>Thanks for entering our Sweepstakes on {{event.site_domain}}. Make sure to come back every day for other great items!</p>
 
-<p>Sincerely,<br><br>
-Contest Administrator<br>
-June Media<br>
-{{tag.site_domain}}<br>
-ContestAdmin@JuneMedia.com<br><br>
-</p>
-</body></html>
+    <p>
+      Sincerely,<br><br>
+      Contest Administrator<br>
+      June Media<br>
+      {{event.site_domain}}<br>
+      ContestAdmin@JuneMedia.com<br><br>
+    </p>
+  </body>
+</html>
