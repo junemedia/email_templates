@@ -21,4 +21,4 @@
 
 
 
-Copyright © {{ 'now' | date: '%Y'}} June Media, All rights reserved. June Media, 200 E. Ohio Street, Suite 300, Chicago, IL 60611
+Copyright © {{ 'now' | date: '%Y'}} June Media, All rights reserved. June Media, 332 S. Michigan Avenue, Chicago, IL 60604
